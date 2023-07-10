@@ -14,21 +14,35 @@ body {
 
 /* main Css */
 
-header{
+/* .Sheader{
+  background-image: url(./images/hardy.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 500px 300px;
+  padding-bottom: 90px;
+} */
+
+header {
   background: #FFF8F3;
+  padding-bottom: 90px;
+  background-image: url(./images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 560px 324px;
 }
 .headercontent{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
+  padding-top: 30px;
+  margin-bottom: 30px;
 
 }
 .headercontent span{
   color: #FD6E0A;
 }
 .headercontent h3{
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 800;
 }
 .headercontent ul:last-child li{
@@ -57,4 +71,33 @@ header{
 .pbtn:hover{
   background: #e56002;
   box-shadow: 0px 4px 10px #e56002;
+}
+
+/* headeraboutS */
+
+.headeraboutS{
+
+}
+.headeraboutS h4 {
+  color: #474747;
+  font-size: 43px;
+  font-weight: 500;
+}
+.headeraboutS h1 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.headeraboutS p {
+  color: #757575;
+  font-size: 16px;
+  width: 450px;
+  margin: 20px 0;
+}
+.cbtn {
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: 1px solid #FD6E0A;
+  color: #FD6E0A;
+  margin-left: 20px;
 }
