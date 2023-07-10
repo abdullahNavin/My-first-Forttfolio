@@ -41,8 +41,8 @@ header::after {
 header::before {
   content: "";
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -15px;
+  right: -15px;
   background-image: url(./images/developer.png);
   background-repeat: no-repeat;
   background-position: bottom left;
@@ -74,9 +74,6 @@ header::before {
   display: inline-block;
   padding-right: 40px;
 }
-/* .headercontent ul:first-child li{
-  margin-right: 60px;
-} */
 .headercontent ul li a{
   text-decoration: none;
   color: #474747;
@@ -94,12 +91,6 @@ header::before {
   box-shadow: 0px 4px 10px #e56002;
 }
 
-/* headeraboutS */
-
-/* .headeraboutS{
-  display: flex;
-  justify-content: space-between;
-} */
 .headeraboutS h4 {
   color: #474747;
   font-size: 43px;
@@ -123,6 +114,36 @@ header::before {
   color: #FD6E0A;
   margin-left: 20px;
 }
-/* .aboutIMG{
-  width: 100%;
-} */
+
+/* aboutsc */
+
+.aboutsc {
+  background: #FFF8F3;
+  margin-top: 75px;
+  padding: 100px 125px 65px 125px;
+}
+.aboutsc h4 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.aboutsc p{
+  color: #757575;
+  text-align: center;
+}
+.aboutCont{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 125px 65px 125px;
+  background: #FFF8F3;
+}
+.nameD{
+
+}
+.nameD p{
+  color: #757575;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
